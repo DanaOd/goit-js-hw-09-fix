@@ -1,0 +1,2 @@
+const t={startBtn:document.querySelector("button[data-start]"),stopBtn:document.querySelector("button[data-stop]")};t.startBtn.addEventListener("click",(function(t){if(o)return;n=setInterval((()=>{document.body.style.backgroundColor=`#${Math.floor(16777215*Math.random()).toString(16).padStart(6,0)}`}),1e3),o=!0})),t.stopBtn.addEventListener("click",(function(t){o=!1,console.log("click on stop",o),clearInterval(n)}));let n=null,o=!1;
+//# sourceMappingURL=01-color-switcher.cfdcce20.js.map
